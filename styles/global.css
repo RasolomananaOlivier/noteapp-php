@@ -1,0 +1,74 @@
+body {
+  margin: 0 30rem;
+  padding: 0;
+  background-color: azure;
+}
+
+.form,
+.form-control-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+.form {
+  position: sticky;
+  top: 0;
+
+  background-color: white;
+  margin: 1rem 0;
+  padding: 1.5rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.253);
+  border-radius: 5px;
+  z-index: 2;
+}
+
+
+.container {
+  background-color: white;
+  margin: 1rem 0;
+  padding: 1.5rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.253);
+  border-radius: 5px;
+}
+
+.form-control-container {
+  padding: .5rem 0;
+}
+
+label {
+  align-self: flex-start;
+}
+
+.button,
+.form-control-container,
+.input {
+  width: 100%;
+}
+
+.input1 {
+  height: 2rem;
+}
+
+.button {
+  padding: 12px;
+  background-color: rgb(4, 143, 108);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  font-size: large;
+
+}
+
+.button:hover {
+  background-color: rgb(3, 104, 79);
+}
+
+.button:active {
+  box-shadow: 0 0 5px rgb(0, 238, 178),
+    0 0 10px rgb(0, 238, 178),
+    0 0 15px rgb(0, 238, 178);
+}
